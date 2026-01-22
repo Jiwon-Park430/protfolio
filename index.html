@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./dist/aos.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./dist/aos.js"></script>
+    <script src="./js/main.js"></script>
+    <script>
+        $(function(){
+        // AOS.init();
+
+        AOS.init({
+            easing: 'ease-out-back',
+            duration : 1000
+        });
+        })
+    </script>
+</head>
+<body>
+    <header>
+        <h1><a href="#home">Jiwon Park</a></h1>
+        <nav>
+            <button class="menu-close">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <ul>
+              <li><a href="#about">ABOUT ME</a></li>
+              <li><a href="#protfolio">PROTFOLIO</a></li>
+              <li><a href="#design">DESIGN</a></li>
+              <li><a href="#contact">CONTACT</a></li>
+            </ul>
+            <button class="nav-btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <section id="home" class="full-section">
+        <div class="content-wrapper" data-aos="fade-up">
+            <h1 class="main-title">Jiwon's<br>Protfolio</h1>
+            <p class="sub-title">DESIGN 2026</p>
+        </div>
+        <a href="#about" class="scroll-down">
+            <i class="fa-solid fa-angle-down"></i>
+        </a>
+    </section>
+
+    <section id="about" class="full-section">
+        <h2>About me</h2>
+        <div class="about-wrap">
+            <div class="img-wrap">
+                <!-- <img src="./img/jiwon.jpg" alt="증명사진"> -->
+                <p><strong>박지원</strong></p>
+                <p>생년월일 : 2001. 04. 30</p>
+                <p>Tel : 010-2588-4869</p>
+                <p>e-mail : qkrwldnjs948@naver.com</p>
+            </div>
+            <div class="txt-wrap">
+                
+            </div>
+        </div>
+    </section>
+    <section id="protfolio" class="full-section">
+        <h2></h2>
+    </section>
+    <section id="design" class="full-section">
+        
+    </section>
+    <section id="contact" class="full-section">
+        
+    </section>
+
+</body>
+</html>
