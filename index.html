@@ -30,6 +30,7 @@
             </button>
             <ul>
               <li><a href="#about">ABOUT ME</a></li>
+              <!-- <li><a href="#skill">SKILL</a></li> -->
               <li><a href="#protfolio">PROTFOLIO</a></li>
               <li><a href="#design">DESIGN</a></li>
               <li><a href="#contact">CONTACT</a></li>
@@ -51,27 +52,160 @@
     </section>
 
     <section id="about" class="full-section">
-        <h2>About me</h2>
-        <div class="about-wrap">
+        <h2 class="title-all" data-aos="fade-up">About me</h2>
+        <div class="about-wrap" data-aos="fade-up" data-aos-duration="1500">
             <div class="img-wrap">
-                <!-- <img src="./img/jiwon.jpg" alt="증명사진"> -->
-                <p><strong>박지원</strong></p>
-                <p>생년월일 : 2001. 04. 30</p>
-                <p>Tel : 010-2588-4869</p>
-                <p>e-mail : qkrwldnjs948@naver.com</p>
+                <img src="./img/jiwon.jpg" alt="증명사진">
+                <div class="img-txt">
+                    <p><strong>박지원</strong></p>
+                    <p>생년월일 : 2001. 04. 30</p>
+                    <p>Tel : 010-2588-4869</p>
+                    <p>e-mail : qkrwldnjs948@naver.com</p>
+                </div>
             </div>
             <div class="txt-wrap">
-                
+                <div class="info-left">
+                    <div class="info-group">
+                        <h3>Experience</h3>
+                        <div class="info-content">
+                            <p>백석대학교 군선교지원센터 조교<br><span>2024.02 - 2025.02</span></p>
+                        </div>
+                    </div>
+                    <div class="info-group">
+                        <h3>Education</h3>
+                        <div class="info-content">
+                            <p>부산외국어대학교 일본어학과 졸업<br><span>2019.03 - 2024.02</span></p>
+                            <p>대전대성여자고등학교<br><span>2016.03 - 2019.02</span></p>
+                        </div>
+                    </div>
+                    <div class="info-group">
+                        <h3>Tool</h3>
+                        <div class="info-content tool-icons">
+                            <img src="./img/Photoshop.svg" alt="포토샵">
+                            <img src="./img/Illustrator.svg" alt="일러스트">
+                            <img src="./img/Figma.svg" alt="피그마">
+                            <img src="./img/VisualStudioCode.svg" alt="비주얼스튜디오코드">
+                            <img src="./img/HTML5.svg" alt="html">
+                            <img src="./img/CSS3.svg" alt="css">
+                            <img src="./img/Javascript.svg" alt="자바스크립트">
+                            <img src="./img/Premiere.svg" alt="프리미어프로">
+                            <img src="./img/After_Effects.svg" alt="에프터이팩트">
+                        </div>
+                    </div>
+                </div>
+                <div class="info-right">
+                    <div class="info-group">
+                        <h3>Lincense</h3>
+                        <div class="info-content">
+                            <p>자동차운전면허 1종 보통<br><span>2022.08.12</span></p>
+                            <p>GTQ 그래픽기술자격 2급 <br><span>2018.02.14</span></p>
+                            <p>ITQ 아래한글 A <br><span>2017.03.02</span></p>
+                            <p>ITQ 엑셀 A <br><span>2016.12.01</span></p>
+                            <p>ITQ 파워포인트 A <br><span>2016.12.01</span></p>
+                        </div>
+                    </div>
+                    <div class="info-group">
+                        <h3>Training</h3>
+                        <div class="info-content">
+                            <p>세잔직업전문학원 웹디자인 과정 수료 <br><span>2025.08 - 2026.02</span></p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+
     <section id="protfolio" class="full-section">
-        <h2></h2>
+        <h2 class="title-all" data-aos="fade-up">Portfolio</h2>
+
+        <div class="portfolio-item" data-aos="fade-left" data-aos-duration="1500">
+            <!-- 왼쪽 이미지 -->
+            <div class="portfolio-image">
+                <img src="./img/omise_site.svg" alt="오미세목업">
+            </div>
+
+            <!-- 오른쪽 설명 -->
+            <div class="portfolio-info">
+                <h3 class="project-title">리뉴얼 사이트</h3>
+
+                <p class="project-desc">
+                    기존에 있던 사이트를 <br>
+                    <strong>반응형 리뉴얼</strong>을 한 프로젝트입니다.<br>
+                    기존 사이트의 장점은 유지하고,
+                    가독성과 몰입도를 강화했습니다.
+                </p>
+
+                <div class="project-block">
+                    <h4>TOOL</h4>
+                    <ul class="tool-list">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Photoshop</li>
+                    </ul>
+                </div>
+
+                <div class="project-block">
+                    <h4>기여도</h4>
+                    <p>기획 및 디자인 100%</p>
+                    <p>퍼블리싱 100%</p>
+                </div>
+
+                <div class="project-buttons">
+                    <a href="https://www.omise.co.kr/" target="_blank" class="white">Original</a>
+                    <a href="#" class="black">WEBSITE</a>
+                    <a href="#" class="sub-btn">Main Page</a>
+                    <a href="#" class="sub-btn">Sub1 Page</a>
+                    <a href="#" class="sub-btn">Sub2 Page</a>
+                    <a href="#" class="sub-btn">Login Page</a>
+                    <a href="#" class="sub-btn">Join Page</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio-item" data-aos="fade-right" data-aos-duration="1500">
+
+            <!-- 왼쪽 설명 -->
+            <div class="portfolio-info">
+                <h3 class="project-title">개인 프로젝트</h3>
+
+                <p class="project-desc">
+                    기존에 없던 새로운를 <br>
+                    <strong>모바일 디자인</strong>을 한 프로젝트입니다.<br>
+                    기존 시장의 나와있는 앱에 장점은 유지하고,
+                    감성과 편의를 강화했습니다.
+                </p>
+
+                <div class="project-block">
+                    <h4>TOOL</h4>
+                    <ul class="tool-list">
+                        <li>Figma</li>
+                    </ul>
+                </div>
+
+                <div class="project-block">
+                    <h4>기여도</h4>
+                    <p>기획 및 디자인 100%</p>
+                </div>
+
+                <div class="project-buttons">
+                    <a href="#" class="white">PROCESS</a>
+                    <a href="./모바일디자인.fig" class="black">Figma</a>
+                </div>
+            </div>
+
+            <!-- 오른쪽 이미지 -->
+            <div class="portfolio-image">
+                <img src="./img/iphone.png" alt="앱 목업" class="app-img">
+            </div>
+        </div>
     </section>
     <section id="design" class="full-section">
+        <h2 class="title-all">Design</h2>
         
     </section>
     <section id="contact" class="full-section">
+        <h2 class="title-all">Contact</h2>
         
     </section>
 
