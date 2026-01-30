@@ -22,8 +22,23 @@
     </script>
 </head>
 <body>
+    <!-- 팝업 -->
+    <div class="popup">
+        <div class="popup-content">
+
+            <button class="pop_close" type="button">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <div class="popup-body">
+                <img src="" alt="디자인 상세 이미지">
+            </div>
+
+        </div>
+    </div>
     <header>
         <h1><a href="#home">Jiwon Park</a></h1>
+
         <nav>
             <button class="menu-close">
                 <i class="fa-solid fa-xmark"></i>
@@ -61,6 +76,9 @@
                     <p>생년월일 : 2001. 04. 30</p>
                     <p>Tel : 010-2588-4869</p>
                     <p>e-mail : qkrwldnjs948@naver.com</p>
+                    <a href="profile.html" class="profile-more">
+                        프로필 더보기 <span>&gt;</span>
+                    </a>
                 </div>
             </div>
             <div class="txt-wrap">
@@ -153,12 +171,12 @@
 
                 <div class="project-buttons">
                     <a href="https://www.omise.co.kr/" target="_blank" class="white">Original</a>
-                    <a href="#" class="black">WEBSITE</a>
-                    <a href="#" class="sub-btn">Main Page</a>
-                    <a href="#" class="sub-btn">Sub1 Page</a>
-                    <a href="#" class="sub-btn">Sub2 Page</a>
-                    <a href="#" class="sub-btn">Login Page</a>
-                    <a href="#" class="sub-btn">Join Page</a>
+                    <a href="./renewal_site/index.html" target="_blank" class="black">WEBSITE</a>
+                    <a href="./renewal_site/index.html" target="_blank" class="sub-btn">Main Page</a>
+                    <a href="./renewal_site/diary.html" target="_blank" class="sub-btn">Sub1 Page</a>
+                    <a href="./renewal_site/buy.html" target="_blank" class="sub-btn">Sub2 Page</a>
+                    <a href="./renewal_site/login.html" target="_blank" class="sub-btn">Login Page</a>
+                    <a href="./renewal_site/join.html" target="_blank" class="sub-btn">Join Page</a>
                 </div>
             </div>
         </div>
@@ -189,7 +207,7 @@
                 </div>
 
                 <div class="project-buttons">
-                    <a href="#" class="white">PROCESS</a>
+                    <a href="#" class="white openPop" data-img="./img/protfolio_popup.png">PROCESS</a>
                     <a href="./모바일디자인.fig" class="black">Figma</a>
                 </div>
             </div>
@@ -201,13 +219,88 @@
         </div>
     </section>
     <section id="design" class="full-section">
-        <h2 class="title-all">Design</h2>
-        
-    </section>
-    <section id="contact" class="full-section">
-        <h2 class="title-all">Contact</h2>
-        
+        <h2 class="title-all" data-aos="fade-up">Design</h2>
+
+        <div class="design-grid">
+
+            <!-- item 1 -->
+            <a href="#" class="design-item openPop" data-img="./img/detail_popup.png" data-aos="fade-up">
+                <img src="./img/detail_page.png" alt="디자인 작업 1">
+                <div class="design-overlay">
+                    <p class="design-category">Personal Project</p>
+                    <h3 class="design-title">Detail Design</h3>
+                </div>
+            </a>
+
+            <!-- item 2 -->
+            <a href="#" class="design-item openPop" data-img="./img/event_popup.png" data-aos="fade-up" data-aos-delay="100">
+                <img src="./img/event.png" alt="디자인 작업 2">
+                <div class="design-overlay">
+                    <p class="design-category">Personal Project</p>
+                    <h3 class="design-title">Event Design</h3>
+                </div>
+            </a>
+
+            <!-- item 3 -->
+            <a href="#" class="design-item openPop" data-img="./img/insta1_popup.png" data-aos="fade-up" data-aos-delay="200">
+                <img src="./img/insta1.png" alt="디자인 작업 3">
+                <div class="design-overlay">
+                    <p class="design-category">Personal Project</p>
+                    <h3 class="design-title">Benner</h3>
+                </div>
+            </a>
+
+            <!-- item 4 -->
+            <a href="#" class="design-item openPop" data-img="./img/insta2_popup.png" data-aos="fade-up">
+                <img src="./img/insta2.png" alt="디자인 작업 4">
+                <div class="design-overlay">
+                    <p class="design-category">Personal Project</p>
+                    <h3 class="design-title">Benner</h3>
+                </div>
+            </a>
+
+            <!-- item 5 -->
+            <a href="#" class="design-item openPop" data-img="./img/web_popup.png" data-aos="fade-up" data-aos-delay="100">
+                <img src="./img/web.png" alt="디자인 작업 5">
+                <div class="design-overlay">
+                    <p class="design-category">Personal Project</p>
+                    <h3 class="design-title">UI Web Design</h3>
+                </div>
+            </a>
+
+        </div>
     </section>
 
+    <section id="contact" class="full-section contact-simple">
+        <h2 class="title-all">Contact</h2>
+
+        <div class="contact-center">
+            <a href="tel:01025884869" class="contact-item">
+            <i class="fa-solid fa-phone"></i>
+            <h3>PHONE NUMBER</h3>
+            <p>010 2588 4869</p>
+            </a>
+
+            <div class="contact-line"></div>
+
+            <a href="mailto:qkrwldnjs948@naver.com" class="contact-item">
+            <i class="fa-regular fa-envelope"></i>
+            <h3>EMAIL</h3>
+            <p>qkrwldnjs948@naver.com</p>
+            </a>
+        </div>
+
+        <div class="contact-footer">
+            <div class="footer-right">
+                <a href="#home">Top</a>
+                <a href="#about">About</a>
+                <a href="#protfolio">Protfolio</a>
+                <a href="#design">Design</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <small>© 2026 Jiwon Park. All Rights Reserved.</small>
+        </div>
+    </section>
 </body>
 </html>

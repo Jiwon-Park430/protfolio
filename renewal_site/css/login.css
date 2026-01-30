@@ -1,0 +1,238 @@
+@charset "utf-8";
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+:root {
+  --main-color:#2d9499;
+  --sub-color:#42bdc5;
+  --sub-text-color: #9D590E;
+  --text-color: #fff;
+  --large-width:1000px
+}
+
+*{margin: 0; padding: 0;box-sizing: border-box;}
+li{list-style: none;}
+a{text-decoration: none; color: inherit;}
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+body {
+  font-family: 'NanumSquare', sans-serif;
+  font-size: 14px;
+}
+
+#wrap {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(rgba(255,255,255, 1), rgba(255,255,255, 1),rgba(45, 148, 153, 1)); /* 배경 그라데이션 */
+}
+/* header */
+header {
+  padding: 20px;
+}
+
+.logo a {
+  display: inline-block;
+}
+
+.logo img {
+  height: 60px;
+}
+
+/* login */
+.login-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px;
+}
+
+.login-wrap {
+  min-width: 400px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 32px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.15);
+}
+
+/* title */
+.login-title {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.login-title h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.login-title p {
+  font-size: 13px;
+  color: #777;
+}
+
+/* form */
+.form-group {
+  margin-bottom: 14px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 13px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  height: 42px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 0 12px;
+  font-size: 14px;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: var(--main-color);
+}
+
+.login-option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 6px 0 20px;
+}
+
+.id-save {
+  font-size: 13px;
+  color: #777;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.find-account {
+  font-size: 13px;
+}
+
+.find-account a {
+  color: #777;
+}
+
+.find-account a:hover {
+  color: var(--main-color);
+  text-decoration: underline;
+}
+
+
+/* button */
+.login-btn {
+  width: 100%;
+  height: 44px;
+  background: var(--main-color);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 25px;
+}
+.login-btn:hover {
+  background-image: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .1)); 
+}
+
+.join-btn {
+  display: block;
+  width: 100%;
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  color: #333;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.join-btn:hover {
+  background: #f5f5f5;
+}
+
+
+/* footer */
+
+footer {display: none;}
+
+@media screen and (min-width:768px) {
+
+  footer {
+    display: block;
+    width: 100%;
+    border-top: 1px solid var(--main-color);
+  }
+  .footer-wrap {
+    max-width: var(--large-width);
+    margin: 50px auto;
+    color: #333;
+  }
+  .footer-main {
+    margin-bottom: 30px;
+  }
+  .footer-main img {
+    display: block;
+  }
+  .footer-main small {
+    line-height: 1.8;
+  }
+  .footer-main small a {
+    font-weight: bold;
+  }
+  .footer-main small a:hover {
+    text-decoration: underline;
+  }
+  .copy {
+    display: block;
+    text-align: center;
+  }
+  .copy a {font-weight: bold;}
+  .copy a:hover {text-decoration: underline;}
+
+  .footer-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 30px;
+  }
+}
+/* PC */
+@media screen and (min-width:768px) {
+
+  /* 전체 배경 흰색 */
+  #wrap {
+    min-height: auto;
+  }
+
+  /* 로그인 영역을 위쪽으로 살짝 */
+  .login-container {
+    flex: none;
+    padding: 80px 0 100px;
+  }
+
+  /* 로그인 박스 크게 */
+  .login-wrap {
+    width: 600px;
+    padding: 40px;
+  }
+
+  /* footer 보이기 */
+  footer {
+    display: block;
+    background: #ffffff;
+  }
+}
+

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OMISE join page</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="./css/join.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="./js/main.js"></script>
+</head>
+<body>
+  <div id="wrap">
+    <header>
+      <h1 class="logo">
+        <a href="index.html">
+          <img src="./images/logo.jpg" alt="OMISE 로고">
+        </a>
+      </h1>
+    </header>
+
+    <main id="container">
+      <div class="join-content box-layout">
+        <section class="join-form">
+          <form action="#" method="post">
+            <h2 class="main-title">회원가입</h2> 
+            <h3 class="form-title">필수입력 정보</h3>
+            <table class="join-table">
+              <colgroup>
+                <col>
+                <col>
+              </colgroup>
+              <tbody>
+                <tr>
+                  <th><label for="user-id">아이디</label></th>
+                  <td>
+                    <div class="flex-row">
+                      <input type="text" id="user-id" placeholder="아이디 입력">
+                      <button type="button" class="btn-sub">중복확인</button>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th><label for="user-pw">비밀번호</label></th>
+                  <td>
+                    <input type="password" id="user-pw" placeholder="비밀번호 입력">
+                  </td>
+                </tr>
+                <tr>
+                  <th><label for="user-pw2">비밀번호 확인</label></th>
+                  <td>
+                    <input type="password" id="user-pw2" placeholder="비밀번호 확인 입력">
+                    <p class="pw2-text">*비밀번호 확인을 위해 한번더 입력해주세요.</p>
+                  </td>
+                </tr>
+                <tr>
+                  <th><label for="user-name">이름</label></th>
+                  <td><input type="text" id="user-name" placeholder="이름을 적어주세요"></td>
+                </tr>
+                <tr>
+                  <th><label for="user-phone">휴대폰 번호</label></th>
+                  <td>
+                    <div class="flex-row phone-inputs">
+                      <input type="text" value="010"> - <input type="text" id="user-phone"> - <input type="text">
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th><label for="birthday">생년월일</label></th>
+                  <td>
+                    <div class="flex-row birth-wrap">
+                      <div class="birth-inputs">
+                        <input type="text" id="birthday" placeholder="년">
+                        <input type="text" placeholder="월">
+                        <input type="text" placeholder="일">
+                      </div>
+                      <div class="radio-group">
+                        <label><input type="radio" name="calendar" checked> 양력</label>
+                        <label><input type="radio" name="calendar"> 음력</label>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th><label for="user-email">이메일</label></th>
+                  <td>
+                    <div class="flex-row email-inputs">
+                      <input type="text" id="user-email"> @ <input type="text">
+                      <select>
+                        <option value="">직접입력</option>
+                        <option value="naver.com">naver.com</option>
+                        <option value="daum.net">daum.net</option>
+                        <option value="gmail.com">gmail.com</option>
+                      </select>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th>성별</th>
+                  <td>
+                    <div class="radio-group">
+                      <label><input type="radio" name="gender"> 여성</label>
+                      <label><input type="radio" name="gender"> 남성</label>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <h3 class="form-title sub-info">선택입력 정보</h3>
+            <table class="join-table">
+              <colgroup>
+                <col style="width: 180px;">
+                <col>
+              </colgroup>
+              <tbody>
+                <tr>
+                  <th>주소</th>
+                  <td>
+                    <div class="address-box">
+                      <div class="flex-row">
+                        <input type="text" readonly placeholder="우편번호">
+                        <button type="button" class="btn-sub">우편번호 검색</button>
+                      </div>
+                      <input type="text" class="addr-input" placeholder="기본주소">
+                      <input type="text" class="addr-input" placeholder="상세주소를 입력해 주세요">
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <div class="form-actions">
+              <button type="submit" class="btn-main">가입</button>
+              <button type="reset" class="btn-cancel">취소</button>
+            </div>
+          </form>
+        </section>
+      </div>
+    </main>
+  </div>
+  <footer>
+    <div class="footer-wrap">
+      <div class="footer-main">
+        <img src="./images/1_hdlogo.jpg" alt="푸터 로고">
+        <small>
+          상호명 : (주)와이티인터내셔날 | 대표 : 신승준 | 개인정보담당자 : 신승준 <br> 
+          사업자등록번호 : 104-81-28926 <a href="#">[사업자정보확인]</a> | 통신판매업신고번호 : 제 2012-서울 송파-0330호<br>
+          사업장소재지 : 서울시 송파구 충민로 10 가든파이브 툴관 7층 B-68호 <br>
+          전화 : 02-378-0277 오미세/더타임 상품문의 및 더타임 남산 매장문의
+        </small>
+      </div>
+      <small class="copy">Copyright O.MI.SE All Right Reserved. <a href="#">[개인정보 취급방침]</a></small>
+    </div>
+  </footer>
+</body>
+</html>

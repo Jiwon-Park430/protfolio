@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OMISE sub diary page (서브페이지)</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="./css/diary.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="./js/main.js"></script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="top-nav">
+        <ul>
+          <li><a href="login.html">로그인</a></li>
+          <li><a href="join.html">회원가입</a></li>
+          <li><a href="#">마이페이지</a></li>
+          <li><a href="#">장바구니</a></li>
+          <li><a href="#">FAG</a></li>
+        </ul>
+      </div>
+      <div class="header-main">
+        <div class="logo">
+          <h1><a href="index.html"><img src="./images/logo.jpg" alt=""></a></h1>
+        </div>
+        <div class="hamburger-menu">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="search-bar">
+          <input type="text" placeholder="검색어를 입력해주세요.">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+    </div>
+    <nav class="headB">
+      <button class="menu-close">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div class="container">
+        <ul>
+          <li><a href="#">TRAVELER’S</a>
+            <ul>
+              <li><a href="#">TRAVELLER’S notebook</a></li>
+              <li><a href="#">BRASS PRODUCTS</a></li>
+              <li><a href="#">Spiral Ring Notebook</a></li>
+              <li><a href="#">Kraft Enovelope</a></li>
+            </ul>
+          </li>
+          <li><a href="#">MIDORI</a>
+            <ul>
+              <li><a href="#">2026 DIARY COLLECTION</a></li>
+              <li><a href="#">MD PAPER PRODUCTS</a></li>
+              <li><a href="#">Yuru log</a></li>
+              <li><a href="#">Chotto</a></li>
+              <li><a href="#">XS</a></li>
+              <li><a href="#">Other MIDORI Collcetion</a></li>
+              <li><a href="#">SALE</a></li>
+            </ul>
+          </li>
+          <li><a href="#">종이 제품</a>
+            <ul>
+              <li><a href="diary.html">다이어리</a></li>
+              <li><a href="#">노트</a></li>
+              <li><a href="#">메모</a></li>
+              <li><a href="#">레터</a></li>
+            </ul>
+          </li>
+          <li><a href="#">문구 · 잡화</a>
+            <ul>
+              <li><a href="#">데스크 용품</a></li>
+              <li><a href="#">필기구</a></li>
+              <li><a href="#">랩핑</a></li>
+              <li><a href="#">클립</a></li>
+              <li><a href="#">스티커</a></li>
+              <li><a href="#">수납</a></li>
+            </ul>
+          </li>
+          <li><a href="#">안내</a>
+            <ul>
+              <li><a href="#">ABOUT US</a></li>
+              <li><a href="#">MIDORI NEWS</a></li>
+              <li><a href="#">REVIEW</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">EVENT</a></li>
+              <li><a href="#">HOW TO USE</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section class="sub-wrap">
+    <div class="sub-container">
+      <p class="area"><a href="index.html">HOME</a> > <a href="#">종이 제품</a> > <a href="diary.html" class="active">다이어리</a></p>
+      <div class="product-header">
+        <h1><a href="diary.html">다이어리</a></h1>
+        <select class="m-list">
+          <option>인기순</option>
+          <option>판매량순</option>
+          <option>신규순</option>
+          <option>낮은가격순</option>
+          <option>높은가격순</option>
+        </select>
+        <ul>
+          <li><a href="#">인기순</a></li>
+          <li><a href="#">판매량순</a></li>
+          <li><a href="#">신규순</a></li>
+          <li><a href="#">낮은가격순</a></li>
+          <li><a href="#">높은가격순</a></li>
+        </ul>
+      </div>
+      <div class="main">
+        <div class="category">
+          <h3><a href="#">종이제품</a></h3>
+          <ul>
+            <li><a href="#">전체보기</a></li>
+            <li class="active"><a href="diary.html">다이어리</a></li>
+            <li><a href="#">노트</a></li>
+            <li><a href="#">메모</a></li>
+            <li><a href="#">레터</a></li>
+          </ul>
+        </div>
+        <div class="product-area">
+          <ul class="product-list">
+            <li class="product-item">
+              <a href="#">
+                <div class="thumb">
+                  <img src="./images/products_sub_img/product01-1.jpg" alt="" class="img-main">
+                  <img src="./images/products_sub_img/product01_hover.png" alt="" class="img-hover">
+                </div>
+                <p class="name">2026 트래블러스노트 클리어 폴더 - 패스포토</p>
+                <p class="price">6,000원</p>
+              </a>
+            </li>
+            <li class="product-item">
+              <a href="#">
+                <div class="thumb">
+                  <img src="./images/products_sub_img/product02-1.jpg" alt="" class="img-main">
+                  <img src="./images/products_sub_img/product02_hover.png" alt="" class="img-hover">
+                </div>
+                <p class="name">2026 트래블러스노트 클리어 폴더 - 오리지널</p>
+                <p class="price">6,600원</p>
+              </a>
+            </li>
+            <li class="product-item">
+              <a href="#">
+                <div class="thumb">
+                  <img src="./images/products_sub_img/product03.jpg" alt="" class="img-main">
+                  <img src="./images/products_sub_img/product03_hover.png" alt="" class="img-hover">
+                </div>
+                <p class="name">2026 플렛 다이어리 - A5 화이트</p>
+                <p class="price">17,000원</p>
+              </a>
+            </li>
+            <li class="product-item">
+              <a href="#">
+                <div class="thumb">
+                  <img src="./images/products_sub_img/product04.jpg" alt="" class="img-main">
+                  <img src="./images/products_sub_img/product04_hover.png" alt="" class="img-hover">
+                </div>
+                <p class="name">026 플렛 다이어리 - A5 블랙</p>
+                <p class="price">19,000원</p>
+              </a>
+            </li>
+            <li class="product-item">
+              <a href="#">
+                <div class="thumb">
+                  <img src="./images/products_sub_img/product05.jpg" alt="" class="img-main">
+                  <img src="./images/products_sub_img/product05_hover.png" alt="" class="img-hover">
+                </div>
+                <p class="name">2026 포켓 다이어리 Ojisan - B6 (월간+주간메모)</p>
+                <p class="price">24,000원</p>
+              </a>
+            </li>
+            <li class="product-item">
+              <a href="buy.html">
+                <div class="thumb">
+                  <img src="./images/products_sub_img/product06.jpg" alt="" class="img-main">
+                  <img src="./images/products_sub_img/product06_hover.png" alt="" class="img-hover">
+                </div>
+                <p class="name">2026 포켓 다이어리 Dog - A6 (월간+2주간)</p>
+                <p class="price">19,000원</p>
+              </a>
+            </li>
+            <li class="product-item">
+              <a href="#">
+                <div class="thumb">
+                  <img src="./images/products_sub_img/product07.jpg" alt="" class="img-main">
+                  <img src="./images/products_sub_img/product07_hover.png" alt="" class="img-hover">
+                </div>
+                <p class="name">2026 포켓 다이어리 Dog - MINI</p>
+                <p class="price">10,500원</p>
+              </a>
+            </li>
+            <li class="product-item">
+              <a href="#">
+                <div class="thumb">
+                  <img src="./images/products_sub_img/product08.jpg" alt="" class="img-main">
+                  <img src="./images/products_sub_img/product08_hover.png" alt="" class="img-hover">
+                </div>
+                <p class="name">2026 Book type Diary Dog - Blue Green</p>
+                <p class="price">36,500원</p>
+              </a>
+            </li>
+            <li class="product-item">
+              <a href="#">
+                <div class="thumb">
+                  <img src="./images/products_sub_img/product09.jpg" alt="" class="img-main">
+                  <img src="./images/products_sub_img/product09_hover.png" alt="" class="img-hover">
+                </div>
+                <p class="name">2026 포켓 다이어리 Ojisan - A6 (월간+유선메모)</p>
+                <p class="price">19,800원</p>
+              </a>
+            </li>
+            <li class="product-item">
+              <a href="#">
+                <div class="thumb">
+                  <img src="./images/products_sub_img/product10.jpg" alt="" class="img-main">
+                  <img src="./images/products_sub_img/product10_hover.png" alt="" class="img-hover">
+                </div>
+                <p class="name">2026 더블 스케줄 다이어리 - B6 베이지</p>
+                <p class="price">21,000원</p>
+              </a>
+            </li>
+            <li class="product-item">
+              <a href="#">
+                <div class="thumb">
+                  <img src="./images/products_sub_img/product11.jpg" alt="" class="img-main">
+                  <img src="./images/products_sub_img/product11_hover.png" alt="" class="img-hover">
+                </div>
+                <p class="name">2026 Plus Stand Diary - Beige</p>
+                <p class="price">18,500원</p>
+              </a>
+            </li>
+            <li class="product-item">
+              <a href="#">
+                <div class="thumb">
+                  <img src="./images/products_sub_img/product12.jpg" alt="" class="img-main">
+                  <img src="./images/products_sub_img/product12_hover.png" alt="" class="img-hover">
+                </div>
+                <p class="name">2026 Plus Stand Diary - Navy</p>
+                <p class="price">18,500원</p>
+              </a>
+            </li>
+            <li class="product-item">
+              <a href="#">
+                <div class="thumb">
+                  <img src="./images/products_sub_img/product03.jpg" alt="" class="img-main">
+                  <img src="./images/products_sub_img/product03_hover.png" alt="" class="img-hover">
+                </div>
+                <p class="name">2026 플렛 다이어리 - A5 화이트</p>
+                <p class="price">19,000원</p>
+              </a>
+            </li>
+            <li class="product-item">
+              <a href="#">
+                <div class="thumb">
+                  <img src="./images/products_sub_img/product14.jpg" alt="" class="img-main">
+                  <img src="./images/products_sub_img/product14_hover.png" alt="" class="img-hover">
+                </div>
+                <p class="name">2026 Book type Diary Dog - Yellow</p>
+                <p class="price">36,500원</p>
+              </a>
+            </li>
+            <li class="product-item">
+              <a href="#">
+                <div class="thumb">
+                  <img src="./images/products_sub_img/product15.jpg" alt="" class="img-main">
+                  <img src="./images/products_sub_img/product15_hover.png" alt="" class="img-hover">
+                </div>
+                <p class="name">2026 Book type Diary Cat - Gray</p>
+                <p class="price">36,500원</p>
+              </a>
+            </li>
+          </ul>
+          <div class="pagination">
+            <a href="#" class="pageprev"><i class="fa-solid fa-chevron-left"></i></a>
+            <a href="diary.html" class="page active">1</a>
+            <a href="#" class="page">2</a>
+            <a href="#" class="page">3</a>
+            <a href="#" class="page">4</a>
+            <a href="#" class="page">5</a>
+            <a href="#" class="page">6</a>
+            <a href="#" class="page">7</a>
+            <a href="#" class="page">8</a>
+            <a href="#" class="page">9</a>
+            <a href="#" class="page">10</a>
+            <a href="#" class="pagenext"><i class="fa-solid fa-chevron-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <footer>
+    <div class="footer-wrap">
+      <div class="footer-main">
+        <img src="./images/1_hdlogo.jpg" alt="">
+        <small>
+          상호명 : (주)와이티인터내셔날 | 대표 : 신승준 | 개인정보담당자 : 신승준 <br> 사업자등록번호 : 104-81-28926 <a href="#">[사업자정보확인]</a> | 통신판매업신고번호 : 제 2012-서울 송파-0330호<br>사업장소재지 : 서울시 송파구 충민로 10 가든파이브 툴관 7층 B-68호 <br>전화 : 02-378-0277 오미세/더타임 상품문의 및 더타임 남산 매장문의
+        </small>
+      </div>
+      <small class="copy">Coptright O.MI.SE All Right Reserved. <a href="#">[개인정보 취급방침]</a></small>
+    </div>
+  </footer>
+
+  <!-- TOP 버튼 -->
+  <button id="topBtn">
+    <a href="diary.html"><i class="fa-solid fa-arrow-up"></i></a>
+  </button>
+
+</body>
+</html>

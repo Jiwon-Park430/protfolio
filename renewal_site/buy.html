@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OMISE sub buy page (구매페이지)</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="./css/buy.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="./js/main.js"></script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="top-nav">
+        <ul>
+          <li><a href="login.html">로그인</a></li>
+          <li><a href="join.html">회원가입</a></li>
+          <li><a href="#">마이페이지</a></li>
+          <li><a href="#">장바구니</a></li>
+          <li><a href="#">FAG</a></li>
+        </ul>
+      </div>
+      <div class="header-main">
+        <div class="logo">
+          <h1><a href="index.html"><img src="./images/logo.jpg" alt=""></a></h1>
+        </div>
+        <div class="hamburger-menu">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="search-bar">
+          <input type="text" placeholder="검색어를 입력해주세요.">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+    </div>
+    <nav class="headB">
+      <button class="menu-close">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div class="container">
+        <ul>
+          <li><a href="#">TRAVELER’S</a>
+            <ul>
+              <li><a href="#">TRAVELLER’S notebook</a></li>
+              <li><a href="#">BRASS PRODUCTS</a></li>
+              <li><a href="#">Spiral Ring Notebook</a></li>
+              <li><a href="#">Kraft Enovelope</a></li>
+            </ul>
+          </li>
+          <li><a href="#">MIDORI</a>
+            <ul>
+              <li><a href="#">2026 DIARY COLLECTION</a></li>
+              <li><a href="#">MD PAPER PRODUCTS</a></li>
+              <li><a href="#">Yuru log</a></li>
+              <li><a href="#">Chotto</a></li>
+              <li><a href="#">XS</a></li>
+              <li><a href="#">Other MIDORI Collcetion</a></li>
+              <li><a href="#">SALE</a></li>
+            </ul>
+          </li>
+          <li><a href="#">종이 제품</a>
+            <ul>
+              <li><a href="diary.html">다이어리</a></li>
+              <li><a href="#">노트</a></li>
+              <li><a href="#">메모</a></li>
+              <li><a href="#">레터</a></li>
+            </ul>
+          </li>
+          <li><a href="#">문구 · 잡화</a>
+            <ul>
+              <li><a href="#">데스크 용품</a></li>
+              <li><a href="#">필기구</a></li>
+              <li><a href="#">랩핑</a></li>
+              <li><a href="#">클립</a></li>
+              <li><a href="#">스티커</a></li>
+              <li><a href="#">수납</a></li>
+            </ul>
+          </li>
+          <li><a href="#">안내</a>
+            <ul>
+              <li><a href="#">ABOUT US</a></li>
+              <li><a href="#">MIDORI NEWS</a></li>
+              <li><a href="#">REVIEW</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">EVENT</a></li>
+              <li><a href="#">HOW TO USE</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <div id="wrap">
+    <p class="category"><a href="index.html">HOME</a> > <a href="#">종이 제품</a> > <a href="diary.html">다이어리</a> > <a href="pay.html" class="active">2026 포켓 다이어리 Dog</a></p>
+    <div class="product-area">
+      <div class="product-slider">
+        <div class="slider-track">
+          <img src="./images/pay_img/product06.jpg" alt="">
+          <img src="./images/pay_img/product06_2.jpg" alt="">
+          <img src="./images/pay_img/product06_3.jpg" alt="">
+          <img src="./images/pay_img/product06_4.jpg" alt="">
+          <img src="./images/pay_img/product06_5.jpg" alt="">
+        </div>
+        <button class="slider-btn prev"><i class="fa-solid fa-angle-left"></i></button>
+        <button class="slider-btn next"><i class="fa-solid fa-angle-right"></i></button>
+      </div>
+
+      <div class="paywrap">
+        <p><strong>MIDORI</strong></p>
+        <h2>2026 포켓 다이어리 Dog - A6 (월간+2주간)</h2>
+        <dl>
+          <dt>판매가격</dt>
+          <dd><strong>19,000원</strong></dd>
+        </dl>
+        <dl>
+          <dt>적립금</dt>
+          <dd><strong>1%</strong></dd>
+        </dl>
+        <dl>
+          <dt>주문수량</dt>
+          <dd><input type="number" min="1" max="50" value="1"></dd>
+        </dl>
+        <div class="btn">
+          <button class="goto">바로구매</button>
+          <button class="cart">장바구니</button>
+          <button class="wishlist">위시리스트 <i class="fa-regular fa-heart"></i></button>
+        </div>
+      </div>
+    </div>
+    <nav class="sub-nav">
+      <ul>
+        <li class="on"><a href="#detail">상세 설명</a></li>
+        <li><a href="#use">이용 안내</a></li>
+        <li><a href="#review">REVIEW</a></li>
+        <li><a href="#qna">Q&amp;A</a></li>
+      </ul>
+    </nav>
+    <div id="detail">
+      <img src="./images/detail/pocket-dog_a6_01.jpg" alt="">
+      <img src="./images/detail/pocket-dog_a6_02.jpg" alt="">
+      <img src="./images/detail/pocket-dog_a6_03.jpg" alt="">
+    </div>
+    <div id="use">
+      <img src="./images/detail/shopping.jpg" alt="">
+    </div>
+  </div>
+  <div id="review" class="review-section">
+    <h3>REVIEW</h3>
+
+    <div class="review-top">
+      <ul class="review-tab">
+        <li class="active">전체 (9)</li>
+        <li>포토 (6)</li>
+        <li>매장 (0)</li>
+      </ul>
+
+      <div class="review-control">
+        <select>
+          <option>최신순</option>
+          <option>평점높은순</option>
+          <option>평점낮은순</option>
+        </select>
+        <button class="btn-gray"><a href="#">상품후기 전체보기</a></button>
+        <button class="btn-green"><a href="#">후기 작성하기 &gt;</a></button>
+      </div>
+    </div>
+
+    <ul class="review-list">
+      <li class="review-item">
+        <div class="review-left">
+          <div class="star">★★★★★</div>
+          <p class="option">구매옵션 : A6</p>
+          <p class="text">무난하게 잘 쓸 것 같아요</p>
+        </div>
+        <div class="review-right">
+          <span>2025/12/23</span>
+          <span>weo**</span>
+        </div>
+      </li>
+
+      <li class="review-item">
+        <div class="review-left">
+          <div class="star">★★★★★</div>
+          <p class="option">구매옵션 : MINI</p>
+          <p class="text">25년도에 잘 써서 내년도 미리 주문했어요.</p>
+        </div>
+        <div class="review-right">
+          <span>2025/12/12</span>
+          <span>jobl**</span>
+        </div>
+      </li>
+    </ul>
+
+    <div class="pagination">
+      <button>&laquo;</button>
+      <button>&lt;</button>
+      <button class="active">1</button>
+      <button>2</button>
+      <button>&gt;</button>
+      <button>&raquo;</button>
+    </div>
+
+    <section id="qna">
+      <h3 class="section-title">Q&amp;A</h3>
+
+      <div class="qna-top">
+        <span></span>
+        <div class="qna-btns">
+          <a href="#" class="btn-all">전체보기</a>
+          <a href="#" class="btn-write">문의하기</a>
+        </div>
+      </div>
+
+      <ul class="qna-list">
+        <li class="qna-item">
+          <div class="qna-left">
+            <span class="num">2</span>
+            <span class="lock">🔒</span>
+            <span class="title">[제품 문의]</span>
+          </div>
+          <div class="qna-right">
+            <span class="writer">조**</span>
+            <span class="date">2025/12/05</span>
+            <span class="view">1</span>
+          </div>
+        </li>
+
+        <li class="qna-item reply">
+          <div class="qna-left">
+            <span class="num">1</span>
+            <span class="arrow">↳</span>
+            <span class="lock">🔒</span>
+            <span class="title">Re: [제품 문의]</span>
+          </div>
+          <div class="qna-right">
+            <span class="writer admin">OMISE</span>
+            <span class="date">2025/12/08</span>
+            <span class="view">1</span>
+          </div>
+        </li>
+      </ul>
+
+      <div class="pagination">
+        <button>&laquo;</button>
+        <button>&lt;</button>
+        <button class="active">1</button>
+        <button>&gt;</button>
+        <button>&raquo;</button>
+      </div>
+    </section>
+
+  </div>
+
+  <footer>
+    <div class="footer-wrap">
+      <div class="footer-main">
+        <img src="./images/1_hdlogo.jpg" alt="">
+        <small>
+          상호명 : (주)와이티인터내셔날 | 대표 : 신승준 | 개인정보담당자 : 신승준 <br> 사업자등록번호 : 104-81-28926 <a href="#">[사업자정보확인]</a> | 통신판매업신고번호 : 제 2012-서울 송파-0330호<br>사업장소재지 : 서울시 송파구 충민로 10 가든파이브 툴관 7층 B-68호 <br>전화 : 02-378-0277 오미세/더타임 상품문의 및 더타임 남산 매장문의
+        </small>
+      </div>
+      <small class="copy">Coptright O.MI.SE All Right Reserved. <a href="#">[개인정보 취급방침]</a></small>
+    </div>
+  </footer>
+
+  <!-- TOP 버튼 -->
+  <button id="topBtn">
+    <a href="buy.html"><i class="fa-solid fa-arrow-up"></i></a>
+  </button>
+
+</body>
+</html>
